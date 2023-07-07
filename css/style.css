@@ -1,0 +1,521 @@
+:root {
+  --main-color: #f7f7f7;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+/* GLOABLE */
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-title h3{
+  font-weight: 900 !important;
+  font-size: 40px !important;
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  z-index: 10;
+  color: #343434;
+}
+.section-title h3::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  background-image: url(../imgs/dots.png);
+  background-position: center;
+  background-repeat: repeat;
+  bottom: -4px;
+  left: 0;
+  z-index: -1;
+}
+.section-title h3::after {
+ content: '.';
+ display: inline;
+
+}
+
+/* FRAMEWORK */
+.icon-40 {
+  width: 40px;
+  height: 40px;
+}
+.w-10 {
+  width: 10%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-95 {
+  width: 95%;
+}
+/* START NAV */
+
+ nav {
+  padding: 20px 0 30px;
+  margin-bottom: 20px;
+  height: 5rem;
+  background-color: rgba( 0, 0, 0, 0.6);
+}
+ nav li {
+  margin: 15px 25px 15px 0;
+}
+ nav li a::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  border-radius: 3px;
+  background-color: white;
+  transition: 0.3s;
+}
+nav li a.active::before {
+  width: 100%;
+}
+nav li:hover a::before {
+  width: 100%;
+}
+nav ul.links li a {
+  font-size: 14px;
+  padding: 0;
+}
+ nav a.logo {
+  padding-top: 20px;
+  font-size: 18px; 
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+/* END NAV */
+/* START HEADER */
+#home {
+  background-image: url(../imgs/bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#home .layer {
+  background: linear-gradient(to bottom, transparent 5rem, rgba( 0, 0, 0, 0.6) 0%);
+  /* background-color: rgba( 0, 0, 0, 0.6); */
+}
+#home .title h2 {
+  font-size: 50px;
+  font-weight: 800;
+}
+#home .title h3 {
+  font-size: 55px;
+  transform: translateX(-50%);
+}
+#home .title h3 span {
+  margin-left: 20px;
+}
+#home .title h3 span::before {
+  content: '|';
+  position: absolute;
+  animation: writer 9s 1s linear infinite;
+}
+@keyframes writer {
+  0% {
+  content: '|'
+  }
+  1% {
+  content: 'D|'
+  }
+  2% {
+  content: 'De|'
+  }
+  3% {
+  content: 'Des|'
+  }
+  4% {
+  content: 'Desi|'
+  }
+  5% {
+  content: 'Desig|'
+  }
+  6% {
+  content: 'Design|'
+  }
+  7% {
+  content: 'Designe|'
+  }
+  8% {
+  content: 'Designer|'
+  }
+  9% {
+  content: 'Designe|'
+  }
+  10% {
+  content: 'Design|'
+  }
+  11% {
+  content: 'Desig|'
+  }
+  12% {
+  content: 'Desi|'
+  }
+  13% {
+  content: 'Des|'
+  }
+  14% {
+  content: 'De|'
+  }
+  15% {
+  content: 'D|'
+  }
+  16% {
+    content: "|";
+  }
+  17% {
+    content: 'D|'
+  } 
+  18% {
+    content: 'De|'
+  } 
+  19% {
+    content: 'Dev|'
+  } 
+  20% {
+    content: 'Deve|'
+  } 
+  21% {
+    content: 'Devel|'
+  } 
+  22% {
+    content: 'Develo|'
+  } 
+  23% {
+    content: 'Develop|'
+  } 
+  24% {
+    content: 'Develope|'
+  } 
+  25% {
+    content: 'Developer|'
+  } 
+  26% {
+    content: 'Develope|'
+  } 
+  27% {
+    content: 'Develop|'
+  } 
+  28% {
+    content: 'Develo|'
+  } 
+  29% {
+    content: 'Deve|'
+  } 
+  30% {
+    content: 'Dev|'
+  } 
+  31% {
+    content: 'De|'
+  } 
+  32% {
+    content: 'D|'
+  } 
+  33% {
+    content: '|'
+  } 
+  34% {
+    content: 'L|';
+  }
+  35% {
+    content: 'La|';
+  }
+  36% {
+    content: 'Lar|';
+  }
+  37% {
+    content: 'Larr|';
+  }
+  38% {
+    content: 'Larry|';
+  }
+  39% {
+    content: 'Larry|';
+  }
+  40% {
+    content: 'LarryD|';
+  }
+  41% {
+    content: 'LarryDa|';
+  }
+  42% {
+    content: 'LarryDan|';
+  }
+  43% {
+    content: 'LarryDani|';
+  }
+  44% {
+    content: 'LarryDanie|';
+  }
+  45% {
+    content: 'LarryDaniel|';
+  }
+  46% {
+    content: 'LarryDaniels|';
+  }
+  47% {
+    content: 'LarryDaniel|';
+  }
+  48% {
+    content: 'LarryDanie|';
+  }
+  49% {
+    content: 'LarryDani|';
+  }
+  50% {
+    content: 'LarryDan|';
+  }
+  51% {
+    content: 'LarryDa|';
+  }
+  52% {
+    content: 'LarryD|';
+  }
+  53% {
+    content: 'Larry|';
+  }
+  54% {
+    content: 'Larry|';
+  }
+  55% {
+    content: 'Larr|';
+  }
+  56% {
+    content: 'Lar|';
+  }
+  57% {
+    content: 'La|';
+  }
+  58% {
+    content: 'L|';
+  }
+  59% {
+    content: '|';
+  }
+
+}
+/* END HOME */
+
+/* START ABOUT */
+#about .title {
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+#about .nick-title {
+  color: #999;
+  letter-spacing: 2px;
+}
+#about .para {
+  line-height: 1.6;
+  margin: 0;
+  color: #748182;
+  margin-top: 20px;
+}
+#about .skills .skill {
+  margin-bottom: 30px;
+  box-shadow: 0 0 8px 5px rgba( 0, 0, 0, 0.1) inset;
+  height: 30px;
+}
+#about .btns a {
+  font-size: 14px;
+  transition: .3s;
+  margin-top: 30px;
+}
+#about .btns a:first-child:hover {
+  background-color: white;
+  color: black;
+}
+#about .btns a:last-child:hover {
+  background-color: black;
+  color: white;
+}
+#about .container .img::before {
+  content: '';
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  bottom: -5%;
+  left: -5%;
+  z-index: -1;
+} 
+/* END ABOUT */
+
+
+/* START SERVICES */
+#services {
+  background-color: var(--main-color);
+}
+
+#services .inner {
+  box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+  padding: 50px 20px;
+}
+#services .inner i {
+  background-color: var(--main-color);
+  transition: .3s;
+  width: 70px;
+  height: 70px;
+}
+#services .inner:hover i {
+  background-color: #000;
+  color: white;
+}
+/* END SERVICES */
+
+/* START PORTFOLIO */
+
+#works ul li button {
+  position: relative;
+  color: #000;
+  padding: 0;
+  margin: 0 10px;
+}
+#works ul li button::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  border-radius: 3px;
+  background-color: #000;
+  transition: .3s;
+}
+#works ul li button.active::before {
+  width: 100%;
+}
+
+#works .row .inner .content {
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  background-color: white;
+  top: 15px;
+  left: 4px;
+  z-index: 1;
+  opacity: 0;
+  transition: .8s;
+}
+#works .row .inner .content h5 {
+  transform: translateY(-15px);
+  transition: .6s;
+}
+#works .row .inner .content .icons {
+  transform: translateY(15px);
+  transition: .6s;
+}
+#works .row .inner:hover .content {
+  top: 4px;
+  opacity: 1;
+}
+#works .row .inner:hover .content h5 {
+  transform: translateY(0);
+}
+#works .row .inner:hover .content .icons {
+  transform: translateY(0);
+}
+#works .row .inner .icons i {
+  background-color: #000;
+  color: white;
+  transition: 0.3s;
+}
+#works .row .inner .icons i:hover {
+  color: #000;
+  background-color: white;
+  border: 1px solid black;
+}
+/* END PORTFOLIO */
+
+
+/* START CLIeNTES */
+
+#clientes {
+  background-color: var(--main-color);
+}
+
+#clientes button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #b6b6b6;
+}
+#clientes button.active {
+  background-color: #869791;
+}
+
+/* END CLIeNTES */
+
+/* START TEAM */
+
+#team {
+  background-color: var(--main-color);
+}
+
+#team .icons li i {
+  color: white;
+  background-color: #000;
+  transition: .4s;
+}
+#team .icons li i:hover {
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+}
+#team .icons ul {
+  width: 60%;
+  height: 60%;
+  transition: 0.5s;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateY(180deg);
+}
+#team .card:hover .icons ul {
+  top: 4px;
+  left: 4px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  transform: rotateY(360deg);
+  opacity: 1;
+}
+#team .img img {
+  transition: .3s;
+}
+#team .img:hover img {
+  transform: scale(1.2);
+}
+/* END TEAM */
+
+
+/* START CONTACT */
+
+#contact .row i {
+  width: 70px;
+  height: 70px;
+  background-color: var(--main-color);
+  transition: .3s;
+}
+#contact .box:hover i {
+  background-color: #000;
+  color: white;
+}
+#contact textarea {
+  height: 12rem;
+  resize: none;
+  outline: none;
+}
+#contact input {
+  outline: none;
+}
+/* END CONTACT */
+
