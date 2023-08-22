@@ -60,6 +60,9 @@
 nav {
   background-color: transparent;
 }
+nav .navbar-toggler i {
+  color: white;
+}
 nav li {
   margin: 15px 25px 15px 0;
 }

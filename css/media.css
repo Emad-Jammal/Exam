@@ -10,19 +10,19 @@
 }
 @media (min-width: 769px) {
   .text-md-white {
-    color: white;
+    color: white !important;
   }
 }
 /* START HOME */
 @media (max-width: 768px) {
- nav ul.links li {
+  nav ul.links li {
     text-align: center;
   }
   nav ul.links li a {
     font-size: 13px;
     color: black;
   }
-   nav ul.links {
+  nav ul.links {
     background-color: white !important;
     width: 100%;
   }
