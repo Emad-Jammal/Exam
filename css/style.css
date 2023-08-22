@@ -32,12 +32,13 @@
   z-index: -1;
 }
 .section-title h3::after {
- content: '.';
- display: inline;
+  content: '.';
+  display: inline;
 
 }
 
 /* FRAMEWORK */
+
 .icon-40 {
   width: 40px;
   height: 40px;
@@ -56,16 +57,13 @@
 }
 /* START NAV */
 
- nav {
-  padding: 20px 0 30px;
-  margin-bottom: 20px;
-  height: 5rem;
-  background-color: rgba( 0, 0, 0, 0.6);
+nav {
+  background-color: transparent;
 }
- nav li {
+nav li {
   margin: 15px 25px 15px 0;
 }
- nav li a::before {
+nav li a::before {
   content: '';
   position: absolute;
   width: 0%;
@@ -73,7 +71,7 @@
   bottom: -3px;
   left: 0;
   border-radius: 3px;
-  background-color: white;
+  background-color: var(--bg-color,white);
   transition: 0.3s;
 }
 nav li a.active::before {
@@ -86,11 +84,15 @@ nav ul.links li a {
   font-size: 14px;
   padding: 0;
 }
- nav a.logo {
+nav a.logo {
   padding-top: 20px;
   font-size: 18px; 
   font-weight: 800;
   letter-spacing: 2px;
+  color: white;
+}
+nav a.anchor {
+  color: white;
 }
 /* END NAV */
 /* START HEADER */
@@ -100,8 +102,7 @@ nav ul.links li a {
   background-size: cover;
 }
 #home .layer {
-  background: linear-gradient(to bottom, transparent 5rem, rgba( 0, 0, 0, 0.6) 0%);
-  /* background-color: rgba( 0, 0, 0, 0.6); */
+  background-color: rgba( 0, 0, 0, 0.6);
 }
 #home .title h2 {
   font-size: 50px;

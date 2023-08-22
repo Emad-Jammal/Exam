@@ -20,7 +20,7 @@
   }
   nav ul.links li a {
     font-size: 13px;
-    color: black !important;
+    color: black;
   }
    nav ul.links {
     background-color: white !important;
