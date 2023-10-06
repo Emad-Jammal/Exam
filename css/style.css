@@ -3,14 +3,14 @@
 }
 
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /* GLOABLE */
 .section-title {
   text-align: center;
   margin-bottom: 50px;
 }
-.section-title h3{
+.section-title h3 {
   font-weight: 900 !important;
   font-size: 40px !important;
   position: relative;
@@ -20,7 +20,7 @@
   color: #343434;
 }
 .section-title h3::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 80%;
@@ -32,9 +32,8 @@
   z-index: -1;
 }
 .section-title h3::after {
-  content: '.';
+  content: ".";
   display: inline;
-
 }
 
 /* FRAMEWORK */
@@ -67,14 +66,14 @@ nav li {
   margin: 15px 25px 15px 0;
 }
 nav li a::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 0%;
   height: 3px;
   bottom: -3px;
   left: 0;
   border-radius: 3px;
-  background-color: var(--bg-color,white);
+  background-color: var(--bg-color, white);
   transition: 0.3s;
 }
 nav li a.active::before {
@@ -89,7 +88,7 @@ nav ul.links li a {
 }
 nav a.logo {
   padding-top: 20px;
-  font-size: 18px; 
+  font-size: 18px;
   font-weight: 800;
   letter-spacing: 2px;
   color: white;
@@ -105,7 +104,7 @@ nav a.anchor {
   background-size: cover;
 }
 #home .layer {
-  background-color: rgba( 0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 #home .title h2 {
   font-size: 50px;
@@ -119,192 +118,191 @@ nav a.anchor {
   margin-left: 20px;
 }
 #home .title h3 span::before {
-  content: '|';
+  content: "|";
   position: absolute;
   animation: writer 9s 1s linear infinite;
 }
 @keyframes writer {
   0% {
-  content: '|'
+    content: "|";
   }
   1% {
-  content: 'D|'
+    content: "D|";
   }
   2% {
-  content: 'De|'
+    content: "De|";
   }
   3% {
-  content: 'Des|'
+    content: "Des|";
   }
   4% {
-  content: 'Desi|'
+    content: "Desi|";
   }
   5% {
-  content: 'Desig|'
+    content: "Desig|";
   }
   6% {
-  content: 'Design|'
+    content: "Design|";
   }
   7% {
-  content: 'Designe|'
+    content: "Designe|";
   }
   8% {
-  content: 'Designer|'
+    content: "Designer|";
   }
   9% {
-  content: 'Designe|'
+    content: "Designe|";
   }
   10% {
-  content: 'Design|'
+    content: "Design|";
   }
   11% {
-  content: 'Desig|'
+    content: "Desig|";
   }
   12% {
-  content: 'Desi|'
+    content: "Desi|";
   }
   13% {
-  content: 'Des|'
+    content: "Des|";
   }
   14% {
-  content: 'De|'
+    content: "De|";
   }
   15% {
-  content: 'D|'
+    content: "D|";
   }
   16% {
     content: "|";
   }
   17% {
-    content: 'D|'
-  } 
+    content: "D|";
+  }
   18% {
-    content: 'De|'
-  } 
+    content: "De|";
+  }
   19% {
-    content: 'Dev|'
-  } 
+    content: "Dev|";
+  }
   20% {
-    content: 'Deve|'
-  } 
+    content: "Deve|";
+  }
   21% {
-    content: 'Devel|'
-  } 
+    content: "Devel|";
+  }
   22% {
-    content: 'Develo|'
-  } 
+    content: "Develo|";
+  }
   23% {
-    content: 'Develop|'
-  } 
+    content: "Develop|";
+  }
   24% {
-    content: 'Develope|'
-  } 
+    content: "Develope|";
+  }
   25% {
-    content: 'Developer|'
-  } 
+    content: "Developer|";
+  }
   26% {
-    content: 'Develope|'
-  } 
+    content: "Develope|";
+  }
   27% {
-    content: 'Develop|'
-  } 
+    content: "Develop|";
+  }
   28% {
-    content: 'Develo|'
-  } 
+    content: "Develo|";
+  }
   29% {
-    content: 'Deve|'
-  } 
+    content: "Deve|";
+  }
   30% {
-    content: 'Dev|'
-  } 
+    content: "Dev|";
+  }
   31% {
-    content: 'De|'
-  } 
+    content: "De|";
+  }
   32% {
-    content: 'D|'
-  } 
+    content: "D|";
+  }
   33% {
-    content: '|'
-  } 
+    content: "|";
+  }
   34% {
-    content: 'L|';
+    content: "L|";
   }
   35% {
-    content: 'La|';
+    content: "La|";
   }
   36% {
-    content: 'Lar|';
+    content: "Lar|";
   }
   37% {
-    content: 'Larr|';
+    content: "Larr|";
   }
   38% {
-    content: 'Larry|';
+    content: "Larry|";
   }
   39% {
-    content: 'Larry|';
+    content: "Larry|";
   }
   40% {
-    content: 'LarryD|';
+    content: "LarryD|";
   }
   41% {
-    content: 'LarryDa|';
+    content: "LarryDa|";
   }
   42% {
-    content: 'LarryDan|';
+    content: "LarryDan|";
   }
   43% {
-    content: 'LarryDani|';
+    content: "LarryDani|";
   }
   44% {
-    content: 'LarryDanie|';
+    content: "LarryDanie|";
   }
   45% {
-    content: 'LarryDaniel|';
+    content: "LarryDaniel|";
   }
   46% {
-    content: 'LarryDaniels|';
+    content: "LarryDaniels|";
   }
   47% {
-    content: 'LarryDaniel|';
+    content: "LarryDaniel|";
   }
   48% {
-    content: 'LarryDanie|';
+    content: "LarryDanie|";
   }
   49% {
-    content: 'LarryDani|';
+    content: "LarryDani|";
   }
   50% {
-    content: 'LarryDan|';
+    content: "LarryDan|";
   }
   51% {
-    content: 'LarryDa|';
+    content: "LarryDa|";
   }
   52% {
-    content: 'LarryD|';
+    content: "LarryD|";
   }
   53% {
-    content: 'Larry|';
+    content: "Larry|";
   }
   54% {
-    content: 'Larry|';
+    content: "Larry|";
   }
   55% {
-    content: 'Larr|';
+    content: "Larr|";
   }
   56% {
-    content: 'Lar|';
+    content: "Lar|";
   }
   57% {
-    content: 'La|';
+    content: "La|";
   }
   58% {
-    content: 'L|';
+    content: "L|";
   }
   59% {
-    content: '|';
+    content: "|";
   }
-
 }
 /* END HOME */
 
@@ -326,12 +324,12 @@ nav a.anchor {
 }
 #about .skills .skill {
   margin-bottom: 30px;
-  box-shadow: 0 0 8px 5px rgba( 0, 0, 0, 0.1) inset;
+  box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.1) inset;
   height: 30px;
 }
 #about .btns a {
   font-size: 14px;
-  transition: .3s;
+  transition: 0.3s;
   margin-top: 30px;
 }
 #about .btns a:first-child:hover {
@@ -343,7 +341,7 @@ nav a.anchor {
   color: white;
 }
 #about .container .img::before {
-  content: '';
+  content: "";
   width: 75%;
   height: 75%;
   position: absolute;
@@ -352,9 +350,8 @@ nav a.anchor {
   bottom: -5%;
   left: -5%;
   z-index: -1;
-} 
+}
 /* END ABOUT */
-
 
 /* START SERVICES */
 #services {
@@ -367,7 +364,7 @@ nav a.anchor {
 }
 #services .inner i {
   background-color: var(--main-color);
-  transition: .3s;
+  transition: 0.3s;
   width: 70px;
   height: 70px;
 }
@@ -386,7 +383,7 @@ nav a.anchor {
   margin: 0 10px;
 }
 #works ul li button::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -5px;
   left: 0;
@@ -394,7 +391,7 @@ nav a.anchor {
   height: 2px;
   border-radius: 3px;
   background-color: #000;
-  transition: .3s;
+  transition: 0.3s;
 }
 #works ul li button.active::before {
   width: 100%;
@@ -408,15 +405,15 @@ nav a.anchor {
   left: 4px;
   z-index: 1;
   opacity: 0;
-  transition: .8s;
+  transition: 0.8s;
 }
 #works .row .inner .content h5 {
   transform: translateY(-15px);
-  transition: .6s;
+  transition: 0.6s;
 }
 #works .row .inner .content .icons {
   transform: translateY(15px);
-  transition: .6s;
+  transition: 0.6s;
 }
 #works .row .inner:hover .content {
   top: 4px;
@@ -439,7 +436,6 @@ nav a.anchor {
   border: 1px solid black;
 }
 /* END PORTFOLIO */
-
 
 /* START CLIeNTES */
 
@@ -468,7 +464,7 @@ nav a.anchor {
 #team .icons li i {
   color: white;
   background-color: #000;
-  transition: .4s;
+  transition: 0.4s;
 }
 #team .icons li i:hover {
   color: black;
@@ -493,13 +489,12 @@ nav a.anchor {
   opacity: 1;
 }
 #team .img img {
-  transition: .3s;
+  transition: 0.3s;
 }
 #team .img:hover img {
   transform: scale(1.2);
 }
 /* END TEAM */
-
 
 /* START CONTACT */
 
@@ -507,7 +502,7 @@ nav a.anchor {
   width: 70px;
   height: 70px;
   background-color: var(--main-color);
-  transition: .3s;
+  transition: 0.3s;
 }
 #contact .box:hover i {
   background-color: #000;
@@ -522,4 +517,3 @@ nav a.anchor {
   outline: none;
 }
 /* END CONTACT */
-
